@@ -1,0 +1,115 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      3858,        107]
+NotebookOptionsPosition[      3225,         87]
+NotebookOutlinePosition[      3599,        104]
+CellTagsIndexPosition[      3556,        101]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.73980497564177*^9, 3.739804977375828*^9}, 
+   3.739806312462385*^9, {3.7398064211639338`*^9, 3.739806439892373*^9}, {
+   3.739807334524087*^9, 
+   3.739807338495743*^9}},ExpressionUUID->"21a77af9-7e93-48d4-a5c9-\
+72e8fc7487b9"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ClearAll", "[", "loader", "]"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"createLoader", "[", "folderName_", "]"}], " ", ":=", " ", "\n", 
+   "\t", 
+   RowBox[{"With", "[", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"files", " ", "=", " ", 
+       RowBox[{"FileNames", "[", 
+        RowBox[{"\"\<*.wxf\>\"", ",", 
+         RowBox[{"FileNameJoin", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"NotebookDirectory", "[", "]"}], ",", "\"\<features\>\"", 
+            ",", "folderName"}], "}"}], "]"}], ",", "Infinity"}], "]"}]}], 
+      "}"}], ",", "\n", "\t\t", 
+     RowBox[{"Function", "[", "files", "]"}]}], "\n", "\t", "]"}]}], "\n", 
+  "\t", "\n", "\t"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"loader", " ", "=", " ", 
+    RowBox[{"createLoader", "[", "\"\<Training\>\"", "]"}]}], ";"}], 
+  "\n"}], "\n", 
+ RowBox[{"loader", "[", 
+  RowBox[{"<|", 
+   RowBox[{"\"\<BatchSize\>\"", " ", "\[Rule]", " ", "64"}], "|>"}], 
+  "]"}], "\n", 
+ RowBox[{"loader", "[", 
+  RowBox[{"<|", 
+   RowBox[{"\"\<BatchSize\>\"", " ", "\[Rule]", " ", "80"}], "|>"}], 
+  "]"}], "\n"}], "Code",
+ CellChangeTimes->{{3.739806254940188*^9, 3.739806285169038*^9}, {
+   3.7398063173298798`*^9, 3.7398063191565638`*^9}, {3.739806352740913*^9, 
+   3.7398063716065273`*^9}, 3.739806453406138*^9, {3.739806519241207*^9, 
+   3.739806547771428*^9}, {3.739806586427434*^9, 3.739806605571796*^9}, {
+   3.739806659512661*^9, 3.7398066744176292`*^9}, {3.73980685554046*^9, 
+   3.73980691356351*^9}, {3.739807099146389*^9, 3.739807159405937*^9}, {
+   3.73980729785487*^9, 3.739807385748726*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"84864bc8-3d46-4e94-bb3c-7b2c75e4a9b8"],
+
+Cell[BoxData[
+ RowBox[{"{", \
+"\<\"/Users/mehmetsahin/Programming/GitHubWL/Summer2018Starter/Project/\
+features/Training/1ovukkcm82ok8.wxf\"\>", "}"}]], "Output",
+ CellChangeTimes->{{3.7398073703988333`*^9, 3.739807386199572*^9}},
+ CellLabel->"Out[19]=",ExpressionUUID->"75ed6369-58dc-4f8e-aa07-4d0dfb12706e"],
+
+Cell[BoxData[
+ RowBox[{"{", \
+"\<\"/Users/mehmetsahin/Programming/GitHubWL/Summer2018Starter/Project/\
+features/Training/1ovukkcm82ok8.wxf\"\>", "}"}]], "Output",
+ CellChangeTimes->{{3.7398073703988333`*^9, 3.73980738623244*^9}},
+ CellLabel->"Out[20]=",ExpressionUUID->"e10d2c29-b5ff-4d31-a595-8a314bfd4327"]
+}, Open  ]]
+},
+Evaluator->"Local",
+WindowSize->{1273, 694},
+WindowMargins->{{0, Automatic}, {71, Automatic}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 7, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[561, 20, 276, 5, 30, "Input",ExpressionUUID->"21a77af9-7e93-48d4-a5c9-72e8fc7487b9"],
+Cell[CellGroupData[{
+Cell[862, 29, 1724, 41, 300, "Code",ExpressionUUID->"84864bc8-3d46-4e94-bb3c-7b2c75e4a9b8"],
+Cell[2589, 72, 309, 5, 34, "Output",ExpressionUUID->"75ed6369-58dc-4f8e-aa07-4d0dfb12706e"],
+Cell[2901, 79, 308, 5, 34, "Output",ExpressionUUID->"e10d2c29-b5ff-4d31-a595-8a314bfd4327"]
+}, Open  ]]
+}
+]
+*)
+

@@ -5,8 +5,8 @@ NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
 NotebookDataLength[   2519310,      44840]
 NotebookOptionsPosition[   2509263,      44689]
-NotebookOutlinePosition[   2509665,      44707]
-CellTagsIndexPosition[   2509622,      44704]
+NotebookOutlinePosition[   2509664,      44707]
+CellTagsIndexPosition[   2509621,      44704]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -44688,8 +44688,8 @@ Cell["6/28/2018\[LineSeparator]mehmetmshin@gmail.com", "Text",ExpressionUUID->"3
 }, Open  ]]
 },
 Evaluator->"New Kernel",
-WindowSize->{1440, 855},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{720, 855},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 WindowStatusArea->None,
 FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 7, \
 2018)",
@@ -44722,7 +44722,7 @@ Cell[2407, 57, 153, 1, 38, "CodeText",ExpressionUUID->"d4717b68-e7a9-459d-b0b1-2
 Cell[2563, 60, 1610, 37, 205, "Code",ExpressionUUID->"bc28cecf-a8f1-44a1-9a88-a545439b7d8a"],
 Cell[4176, 99, 1926, 47, 102, "Input",ExpressionUUID->"1c74cce6-9824-4f44-b1f3-1b133e9507bb"],
 Cell[CellGroupData[{
-Cell[6127, 150, 938, 21, 52, "Input",ExpressionUUID->"02c340eb-cede-47a0-97df-107d7541982f"],
+Cell[6127, 150, 938, 21, 115, "Input",ExpressionUUID->"02c340eb-cede-47a0-97df-107d7541982f"],
 Cell[7068, 173, 1738042, 31279, 292, "Output",ExpressionUUID->"56e5a63a-f3f9-41ae-9876-1039a9aff309"]
 }, Open  ]],
 Cell[1745125, 31455, 169, 3, 38, "CodeText",ExpressionUUID->"7fc79341-27e5-45f6-b25b-6a94bb02c292"],

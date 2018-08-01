@@ -83,6 +83,8 @@ In this project, we discovered that a convolution neural network (CNN) might fai
 
 The convolution neural network (CNN) that was used in this project can be found here: http://community.wolfram.com/groups/-/m/t/1250199
 
+### Note: Even though CNN works well, it can still make bad predictions (some really bad). I believe that if we train the CNN with more data for more hours, the bad predictions will start decrease. I also believe that it is almost impossible to predict the scale of satellite images with 100% accuracy because there are too many examples of satellite images and Earth can be really fractal such as mountains and rivers. 
+
   [1]: http://community.wolfram.com//c/portal/getImageAttachment?filename=ScreenShot2018-07-11at3.02.32PM.png&userId=1363688
   [2]: http://community.wolfram.com//c/portal/getImageAttachment?filename=1.png&userId=1363688
   [3]: http://community.wolfram.com//c/portal/getImageAttachment?filename=2.png&userId=1363688
